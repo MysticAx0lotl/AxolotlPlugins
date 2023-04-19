@@ -1,0 +1,14 @@
+{
+    "name": "Amogus",
+    "description": "A reimplementation of mantikafasi's sussy plugin, based on BreadoWebTech's Quotes plugin",
+    "authors": [
+        {
+            "name": "MysticAxolotl",
+            "id": "mysticax0lotl"
+        }
+    ],
+    "main": "src/index.ts",
+    "vendetta": {
+        "icon": "ic_badge_staff"
+    }
+}
