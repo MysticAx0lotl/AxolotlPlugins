@@ -23,7 +23,7 @@ async function getGif() {
 
 export const onLoad = () => {
 
-      quoteCMD = registerCommand({
+      amogusCMD = registerCommand({
 
           name: "amogus",
 
