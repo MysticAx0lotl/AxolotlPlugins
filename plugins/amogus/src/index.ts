@@ -10,6 +10,10 @@ import { registerCommand } from "@vendetta/commands";
 
 let amogusCMD = [];
 
+async function getGif() {
+  const response = await fetch("https://shiny-cloud-eab7.techguy7916261.workers.dev/");
+  return response;
+}
 
 export const onLoad = () => {
 
@@ -31,8 +35,7 @@ export const onLoad = () => {
 
           execute: async () => {
  
-            return { content: fetch(https://shiny-cloud-eab7.techguy7916261.workers.dev/)};
-          },
+            return { content: await getGif()};},
         })
 
 
