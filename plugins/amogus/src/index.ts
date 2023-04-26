@@ -31,7 +31,7 @@ export const onLoad = () => {
           inputType: 1,
 
           execute: async () => {
-            return "amogus placeholder lmao";
+            return {content: "amogus placeholder lmao"};
           },
         })
 
