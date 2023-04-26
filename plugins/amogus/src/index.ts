@@ -38,7 +38,7 @@ export const onLoad = () => {
 
           execute: async () => {
  
-            return {getGif()};
+            return {getGif();};
           },
         })
 
