@@ -31,7 +31,7 @@ export const onLoad = () => {
           inputType: 1,
 
           execute: async () => {
-            return (await fetch("https://amogus-plugin-worker.techguy7916261.workers.dev"));
+            return "amogus placeholder lmao";
           },
         })
 
