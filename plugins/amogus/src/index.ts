@@ -31,7 +31,7 @@ export const onLoad = () => {
           inputType: 1,
 
           execute: async () => {
-            return {content: "amogus placeholder lmao"}
+            return {content: await response('https://amogus-plugin-worker.techguy7916261.workers.dev/')}
           },
         })
 
