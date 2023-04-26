@@ -8,24 +8,27 @@ import { logger } from "@vendetta";
 
 import { registerCommand } from "@vendetta/commands";
 
-let amogusCMD = [];
+let gifCMD = [];
 
 async function getGif() {
   const response = await fetch("https://shiny-cloud-eab7.techguy7916261.workers.dev/");
+  //const data = await response.json();
+  ///return data['0']['content'];
   return response;
 }
+//const quote = await getQuote();
 
 export const onLoad = () => {
 
-      amogusCMD = registerCommand({
+      quoteCMD = registerCommand({
 
-          name: "amogus",
+          name: "quote",
 
-          displayName: "amogus",
+          displayName: "quote",
 
-          description: "Sends a random Among Us gif",
+          description: "generates a quote.",
 
-          displayDescription: "Sends a random Among Us gif",
+          displayDescription: "generates a quote",
 
           type: 1,
 
@@ -45,5 +48,5 @@ export const onLoad = () => {
 
 
 export const onUnload = () => {
-  amogusCMD();
-}
+  gifCMD();
+};
