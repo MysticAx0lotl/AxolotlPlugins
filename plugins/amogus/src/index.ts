@@ -8,7 +8,7 @@ import { logger } from "@vendetta";
 
 import { registerCommand } from "@vendetta/commands";
 
-let gifCMD = [];
+let gifCMD;
 
 
 
@@ -44,5 +44,5 @@ export const onLoad = () => {
 
 
 export const onUnload = () => {
-  gifCMD();
+  gifCMD?.();
 };
