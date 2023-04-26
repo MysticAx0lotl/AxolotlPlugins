@@ -1,6 +1,6 @@
 {
     "name": "Amogus",
-    "description": "A reimplementation of mantikafasi's sussy plugin, based on BreadoWebTech's Quotes plugin. Credits can be found in the plugin's source code at ",
+    "description": "A reimplementation of mantikafasi's sussy plugin, based on BreadoWebTech's Quotes plugin. Credits can be found in the plugin's source code at https://github.com/MysticAx0lotl/AxolotlPlugins/blob/master/plugins/amogus/src/index.ts",
     "authors": [
         {
             "name": "MysticAxolotl",
