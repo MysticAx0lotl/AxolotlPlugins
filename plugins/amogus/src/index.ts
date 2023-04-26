@@ -10,6 +10,9 @@ import { registerCommand } from "@vendetta/commands";
 
 let gifCMD = [];
 
+
+
+
 //const quote = await getQuote();
 
 export const onLoad = () => {
@@ -31,7 +34,7 @@ export const onLoad = () => {
           inputType: 1,
 
           execute: async () => {
-            return {content: fetch("https://amogus-plugin-worker.techguy7916261.workers.dev/")}
+            return {content: await fetch("https://amogus-plugin-worker.techguy7916261.workers.dev/").then(r=>r.text())}
           },
         })
 
