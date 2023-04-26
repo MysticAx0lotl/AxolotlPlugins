@@ -10,30 +10,6 @@ import { registerCommand } from "@vendetta/commands";
 
 let amogusCMD = [];
 
-const giphy = {
-	baseURL: "https://api.giphy.com/v1/gifs/",
-	apiKey: "cngHUDbMph29ojMkLmwb2D1MfXYMr22o",
-	tag: "amogus",
-	type: "random",
-	rating: "pg-13"
-};
-
-async function getGif() {
-	let giphyURL = encodeURI(
-		giphy.baseURL +
-		giphy.type +
-		"?api_key=" +
-		giphy.apiKey +
-		"&tag=" +
-		giphy.tag +
-		"&rating=" +
-		giphy.rating
-	);
-	var gifOBJ = $.get(giphyURL);
-	return gifOBJ;
-}
-
-//const quote = await getQuote();
 
 export const onLoad = () => {
 
@@ -55,7 +31,7 @@ export const onLoad = () => {
 
           execute: async () => {
  
-            return { content: await getGif()};
+            return { content: fetch(https://shiny-cloud-eab7.techguy7916261.workers.dev/)};
           },
         })
 
