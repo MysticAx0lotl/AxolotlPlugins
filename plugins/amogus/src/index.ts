@@ -20,7 +20,7 @@ async function getGif() {
 
 export const onLoad = () => {
 
-      quoteCMD = registerCommand({
+      gifCMD = registerCommand({
 
           name: "quote",
 
