@@ -29,7 +29,7 @@ async function getGif() {
 		giphy.rating
 	);
 	var gifOBJ = $.get(giphyURL);
-	return gifOBJ.url;
+	return gifOBJ;
 }
 
 //const quote = await getQuote();
