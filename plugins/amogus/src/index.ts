@@ -11,7 +11,7 @@ import { registerCommand } from "@vendetta/commands";
 let gifCMD = [];
 
 async function getGif() {
-  const response = await fetch("https://shiny-cloud-eab7.techguy7916261.workers.dev/");
+  const response = await fetch("amogus-plugin-worker.techguy7916261.workers.dev");
   //const data = await response.json();
   ///return data['0']['content'];
   return response;
