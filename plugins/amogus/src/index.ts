@@ -37,8 +37,7 @@ export const onLoad = () => {
           inputType: 1,
 
           execute: async () => {
- 
-            return {getGif();};
+            return getGif();
           },
         })
 
