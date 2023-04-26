@@ -45,7 +45,7 @@ export const onLoad = () => {
 
           description: "Sends a random Among Us gif",
 
-          displayDescription: "Sends a random Among Us gif. Credits can be found in the plugin's source code at https://github.com/MysticAx0lotl/AxolotlPlugins/edit/master/plugins/amogus/src/index.ts",
+          displayDescription: "Sends a random Among Us gif",
 
           type: 1,
 
