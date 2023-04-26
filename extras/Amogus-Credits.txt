@@ -1,5 +1,5 @@
 mantikafasi for the original sussy baka Amogus plugin for Aliucord, withouth which this impostor plugin wouldn't exist.
 BreadoWebTech for their Quotes plugin (https://github.com/BreadoWebTech/breadoplugs), which I used as a base
 Chyno Deluxe @ CodePen for their random GIF generator (https://codepen.io/ChynoDeluxe/pen/WGQzWW), which I used as reference on how to interact with the Giphy API
-[REDACTED], [REDACTED], [REDACTED], and [REDACTED] for helping a complete JavaScript noob to successfully write and deploy their first JS project
+[REDACTED], [REDACTED], @beef, and @sean of the official Vendetta Discord server for helping a complete JavaScript noob to successfully write and deploy their first JS project
 You, for downloading this goofy meme plugin!
