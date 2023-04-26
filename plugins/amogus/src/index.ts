@@ -11,7 +11,7 @@ import { registerCommand } from "@vendetta/commands";
 let gifCMD = [];
 
 async function getGif() {
-  const response = await fetch("amogus-plugin-worker.techguy7916261.workers.dev");
+  const response = await fetch("https://amogus-plugin-worker.techguy7916261.workers.dev");
   //const data = await response.json();
   ///return data['0']['content'];
   return response;
@@ -22,13 +22,13 @@ export const onLoad = () => {
 
       gifCMD = registerCommand({
 
-          name: "quote",
+          name: "amogus",
 
-          displayName: "quote",
+          displayName: "amogus",
 
-          description: "generates a quote.",
+          description: "Sends a random Among Us gif",
 
-          displayDescription: "generates a quote",
+          displayDescription: "Sends a random Among Us gif",
 
           type: 1,
 
