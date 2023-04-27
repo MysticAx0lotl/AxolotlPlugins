@@ -4,6 +4,9 @@
 * the code is 100% identical to what's been deployed on my Cloudfare account. 
 * If you don't believe me, then feel free to submit an issue and I'll do my best 
 * to clear up any concerns you have.
+* You also have the option of deploying your own Cloudfare worker
+* using this code and your own API key, and forking the plugin
+* to point to your worker instead of mine.
 * This code is based on the example at 
 * https://developers.cloudflare.com/workers/examples/fetch-json/.
 **/
