@@ -3,8 +3,7 @@
     "description": "A reimplementation of mantikafasi's sussy plugin. Credits are in the Github repo!",
     "authors": [
         {
-            "name": "MysticAxolotl",
-            "id": "mysticax0lotl"
+            "name": "MysticAxolotl"
         }
     ],
     "main": "src/index.ts",
