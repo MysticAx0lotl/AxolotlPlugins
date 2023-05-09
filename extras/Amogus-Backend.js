@@ -9,6 +9,8 @@
 * to point to your worker instead of mine.
 * This code is based on the example at 
 * https://developers.cloudflare.com/workers/examples/fetch-json/.
+* While this code is now obsoleted with the latest commit, I am
+* keeping it up here for archival purposes.
 **/
 
 export default {
