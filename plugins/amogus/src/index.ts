@@ -31,20 +31,19 @@ export const onLoad = () => {
           inputType: 1,
 
           execute: async () => {
-            return {const results = await RestAPI.get({
-                                           url: "/gifs/search",
-                                           query: {
-                                                q: "amongus",
-                                                media_format: "gif",
-                                                provider: "tenor",
-                                                locale: "en-US",
-                                                limit: void 0
-                                          },
-                                          oldFormErrors: true
-           })
-          },
-        })
-    }
+            return {await RestAPI.get({
+                  url: "/gifs/search",
+                  query: {
+                        q: "amongus",
+                        media_format: "gif",
+                        provider: "tenor",
+                        locale: "en-US",
+                        limit: void 0
+                  },
+                  oldFormErrors: true
+                  })
+            }
+         }           
 
 export const onUnload = () => {
   gifCMD?.();
