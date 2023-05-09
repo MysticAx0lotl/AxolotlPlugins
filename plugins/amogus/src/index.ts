@@ -8,6 +8,8 @@ import { logger } from "@vendetta";
 
 import { registerCommand } from "@vendetta/commands";
 
+import { RestAPI };
+
 let gifCMD;
 
 //const quote = await getQuote();
