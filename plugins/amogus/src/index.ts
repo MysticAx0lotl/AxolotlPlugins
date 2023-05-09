@@ -1,7 +1,7 @@
 //--Credits--//
 //@mantikafasi for the original plugin, which can be found at https://github.com/mantikafasi/AliucordPlugins/tree/main/Amog%E2%80%8C%E2%80%8Dus
 //@BreadoWebTech for Quotes plugin, which I used as a skeleton, which can be found at https://github.com/BreadoWebTech/breadoplugs/blob/master/plugins/quotes/src/index.ts
-//Chyno Deluxe for the random GIF generator web app I used as reference material, which can be found at https://codepen.io/ChynoDeluxe/pen/WGQzWW
+//@Wing of the Vendetta Discord server for sharing the code snippet that retooled this plugin to use Discord's GIF API
 //You, for downloading this plugin :D
 
 import { logger } from "@vendetta";
@@ -9,9 +9,6 @@ import { logger } from "@vendetta";
 import { registerCommand } from "@vendetta/commands";
 
 let gifCMD;
-
-
-
 
 //const quote = await getQuote();
 
@@ -34,14 +31,20 @@ export const onLoad = () => {
           inputType: 1,
 
           execute: async () => {
-            return {content: await fetch("https://amogus-plugin-worker.techguy7916261.workers.dev/").then(r=>r.text())}
+            return {const results = await RestAPI.get({
+                                           url: "/gifs/search",
+                                           query: {
+                                                q: "amongus",
+                                                media_format: "gif",
+                                                provider: "tenor",
+                                                locale: "en-US",
+                                                limit: void 0
+                                          },
+                                          oldFormErrors: true
+           })
           },
         })
-
-
     }
-  
-
 
 export const onUnload = () => {
   gifCMD?.();
