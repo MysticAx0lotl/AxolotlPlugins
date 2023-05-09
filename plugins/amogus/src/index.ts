@@ -8,7 +8,7 @@ import { logger } from "@vendetta";
 
 import { registerCommand } from "@vendetta/commands";
 
-import { RestAPI };
+import { RestAPI } from "@vendetta";
 
 let gifCMD;
 
