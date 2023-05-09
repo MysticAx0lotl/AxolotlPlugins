@@ -1,0 +1,13 @@
+{
+    "name": "LegacyAmogus",
+    "description": "The old version of my reimplementation of mantikafasi's sussy plugin. Credits are in the Github repo!",
+    "authors": [
+        {
+            "name": "MysticAxolotl"
+        }
+    ],
+    "main": "src/index.ts",
+    "vendetta": {
+        "icon": "ic_image"
+    }
+}
