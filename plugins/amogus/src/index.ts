@@ -10,6 +10,31 @@ import { registerCommand } from "@vendetta/commands";
 
 import { RestAPI } from "@vendetta";
 
+//--Every line of code from line 14 to 35 is by Beef. Thanks :)--//
+// Import utility for finding Discord's modules by specific properties
+import { findByProps } from "@vendetta/metro";
+
+// Get module with property "getAPIBaseURL". You can see what this module contains in the file attached
+// We can call this variable whatever we want, or even destructure it
+const RestAPI = findByProps("getAPIBaseURL");
+
+// Using RestAPI, we can do stuff such as:
+// Note that I am using an asynchronous IIFE, you should hopefully already be in an async context
+(async() => {
+    const results = await RestAPI.get({
+        url: "/gifs/search",
+        query: {
+            q: "amongus",
+            media_format: "gif",
+            provider: "tenor",
+            locale: "en-US",
+            limit: 0,
+        },
+        oldFormErrors: true
+    });
+})();
+
+
 let gifCMD;
 
 //const quote = await getQuote();
